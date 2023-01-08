@@ -1,0 +1,109 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and(min-width: 390) {
+    .content1-container {
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+    .content1-wrapper {
+        font-size: 10px;
+    }
+}
+.nav {
+    background-color: #EFF8FF;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    gap: 10px;
+}
+.nav-logo {
+    font-size: 30px;
+    margin-left: 100px;
+}
+.nav-ul-list {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 20px;
+}
+.nav-ul-buttom {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.register {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #025595;
+    border-radius: 16px;
+    padding: 13px 20px;
+    color: white;
+}
+/* NAVBAR END */
+.content1 {
+    background-color: #EFF8FF;
+    height: 760px;
+    width: 100%;
+}
+
+.content1-container {
+    height: 160px;
+    width: 599px;
+    position: absolute;
+    left: 150px;
+    top: 190px;
+    flex-direction: column;
+}
+.content1-wrapper {
+    font-size: 60px;
+    color: #16100D;
+}
+.cart {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+.content1-cart {
+    background-image: url(download.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 760px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content1-text {
+    position: absolute;
+    height: 68px;
+    width: 535px;
+    left: 150px;
+    top: 370px;
+    color: rgba(22, 16, 13, 0.5);
+}
+.location {
+    height: 80px;
+    width: 925px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    left: 150px;
+    top: 488px;
+    padding: 20px;
+    border-radius: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-location {
+    display: flex;
+}
+.icon {
+    position: relative;
+    left: 25px;
+}
